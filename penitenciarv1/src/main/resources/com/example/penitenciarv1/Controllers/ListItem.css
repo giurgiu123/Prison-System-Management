@@ -1,0 +1,12 @@
+/* Apply styles to the text and icon Label in ListItem */
+/* also one for the layout */
+
+.label{
+    -fx-alignment: 'center';
+
+
+
+}
+.VBox{
+    -fx-padding: 10% 10% 10% 10%;
+}

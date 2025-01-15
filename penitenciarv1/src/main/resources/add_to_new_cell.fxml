@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" minHeight="420.0" minWidth="315.0" prefHeight="482.0" prefWidth="629.0" styleClass="vbox" stylesheets="@background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.penitenciarv1.Interfaces.popUps.newCell.AddToNewCellController">
+   <children>
+      <Label styleClass="label-title" stylesheets="@background.css" text="Move to another Cell">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+         <padding>
+            <Insets bottom="50.0" />
+         </padding>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label styleClass="label-text" stylesheets="@background.css" text="Select from available cells:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+      <ComboBox fx:id="comboBox" prefHeight="0.0" prefWidth="204.0">
+         <VBox.margin>
+            <Insets bottom="40.0" />
+         </VBox.margin>
+      </ComboBox>
+      <Label prefHeight="21.0" prefWidth="180.0" styleClass="label-text" stylesheets="@background.css" text="Reason for transfer:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+      <TextArea maxWidth="220.0" prefHeight="117.0" prefWidth="220.0" styleClass="text-area" stylesheets="@background.css">
+         <VBox.margin>
+            <Insets bottom="40.0" />
+         </VBox.margin>
+      </TextArea>
+      <Button fx:id="button" mnemonicParsing="false" onAction="#updateAndExit" prefHeight="45.0" prefWidth="97.0" stylesheets="@background.css" text="Apply">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

@@ -1,0 +1,9 @@
+#pane {
+
+   /* -fx-background-image: url("images/cazulcorpA.png"); *//* Asigură-te că imaginea este în folderul `resources/images` */
+    -fx-background-size: 100% 100%; /* Ajustează dimensiunea la container *!*/
+   /* -fx-background-position: center center; /* Poziționează imaginea în centru *!*/
+   /* -fx-background-repeat: no-repeat; /* Evită repetarea imaginii *!*/
+
+
+}
