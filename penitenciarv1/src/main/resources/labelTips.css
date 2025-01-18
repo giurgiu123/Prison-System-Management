@@ -1,8 +1,0 @@
-.label{
-    -fx-font-size: 10px;
-    -fx-font-family: "Arial";
-    -fx-font-fill : white;
-    -fx-background-color: linear-gradient(to bottom, #ff7e5f, #feb47b);
-    -fx-border-radius: 10;
-    -fx-background-radius: 10;
-}
